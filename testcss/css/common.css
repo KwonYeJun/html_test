@@ -1,0 +1,34 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--main-textcolor);
+
+}
+body::-webkit-scrollbar {
+  display: none;  
+  overflow-y: scroll;
+  
+}
+input::-ms-input-placeholder{color: var(--main-textcolor);}
+input{
+  outline: var(--main-bgcolor);
+text-align: center;
+}
+
+:root{
+  --main-bgcolor:#D88EE6;
+  --main-textcolor:#E1B8E6;
+}
+
+#logo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+
